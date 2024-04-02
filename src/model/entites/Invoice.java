@@ -26,7 +26,7 @@ public class Invoice {
         this.tax = tax;
     }
 
-    private Double getTotalPayment(){
+    public Double getTotalPayment(){
         return getBasicPayment() - getTax();
     }
 }
